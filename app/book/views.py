@@ -10,4 +10,5 @@ class BookViewSet(viewsets.ModelViewSet):
     /books
     /books/<bookid>
     """
-    pass
+    queryset = Book.objects.all()
+    serializer_class = BookSerializer

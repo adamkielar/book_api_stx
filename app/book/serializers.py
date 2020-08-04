@@ -18,4 +18,4 @@ class BookSerializer(serializers.ModelSerializer):
             'ratings_count',
             'thumbnail'
         )
-        read_only_fields = ('id')
+        read_only_fields = ('id',)

@@ -5,6 +5,7 @@ from core.models import Book
 
 class BookSerializer(serializers.ModelSerializer):
     """Serializer for book object"""
+    authors = serializers.ListField(child=serializers.CharField())
 
     class Meta:
         model = Book

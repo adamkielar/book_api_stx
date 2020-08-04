@@ -41,4 +41,3 @@ class Command(BaseCommand):
                     continue
 
         self.stdout.write(self.style.SUCCESS('Books added to database!'))
-

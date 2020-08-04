@@ -1,5 +1,4 @@
 from django.contrib.postgres.fields import ArrayField
-from django.core.validators import MaxValueValidator
 from django.db import models
 
 

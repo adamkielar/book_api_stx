@@ -9,11 +9,12 @@ class Book(models.Model):
     authors = ArrayField(models.CharField(max_length=255))
     published_date = models.CharField(max_length=10, blank=True)
     categories = ArrayField(
-        models.CharField(max_length=255),
+        models.CharField(max_length=255, null=True, blank=True),
         blank=True,
         null=True
     )
     average_rating = models.PositiveSmallIntegerField(
+        null=True,
         blank=True,
         validators=[MaxValueValidator(5)]
     )
@@ -23,8 +24,3 @@ class Book(models.Model):
     def __str__(self):
         return self.title
 
-    def save(self, *args, **kwargs):
-        """Custom save method to store only published year"""
-        if len(self.published_date) > 4:
-            self.published_date = self.published_date[:3]
-        super(Book, self).save(*args, **kwargs)

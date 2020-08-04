@@ -4,7 +4,7 @@ from core.models import Book
 from book.serializers import BookSerializer
 
 
-class BookViewSet(viewsets.ModelViewSet):
+class BookViewSet(viewsets.ReadOnlyModelViewSet):
     """
     Manage following endpoint:
     /books

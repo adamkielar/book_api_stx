@@ -54,9 +54,9 @@ class BookApiTest(TestCase):
 
         response = self.client.get(BOOKS_URL, {'published_date': '2004'})
         serializer1 = BookSerializer(book1)
-#        serializer2 = BookSerializer(book2)
+        serializer2 = BookSerializer(book2)
         self.assertIn(serializer1.data, response.data)
-#        self.assertNotIn(serializer2.data, response.data)
+        self.assertNotIn(serializer2.data, response.data)
 
     def test_book_detail_view(self):
         """Test viewing a book detail"""

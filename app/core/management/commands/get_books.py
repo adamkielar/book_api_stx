@@ -21,15 +21,16 @@ class Command(BaseCommand):
 
         if books:
             for book in books:
+                book = book['volumeInfo']
                 try:
                     Book.objects.get_or_create(
-                        title=book['volumeInfo']['title'],
-                        authors=book['volumeInfo']['authors'],
-                        published_date=book['volumeInfo']['publishedDate'][:4],
-                        categories=book['volumeInfo']['categories'],
-                        average_rating=book['volumeInfo']['averageRating'],
-                        ratings_count=book['volumeInfo']['ratingsCount'],
-                        thumbnail=book['volumeInfo']['imageLinks']['thumbnail']
+                        title=book.get('title'),
+                        authors=book.get('authors'),
+                        published_date=book.get('publishedDate')[:4],
+                        categories=book.get('categories', list()),
+                        average_rating=book.get('averageRating', 0),
+                        ratings_count=book.get('ratingsCount', 0),
+                        thumbnail=book['imageLinks'].get('thumbnail')
                     )
                 except IntegrityError:
                     self.stdout.write('Duplicate entries')

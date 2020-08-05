@@ -124,5 +124,5 @@ class BookUpdateApiTest(TestCase):
 
             self.assertEqual(response.status_code, status.HTTP_201_CREATED)
 
-        books_in_db = Book.objects.all()
-        self.assertEqual(books_in_db.count(), 10)
+        books_in_db = Book.objects.values()[:1].get()
+        self.assertIn('title', books_in_db)

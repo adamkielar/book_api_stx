@@ -126,4 +126,3 @@ class BookUpdateApiTest(TestCase):
 
         books_in_db = Book.objects.all()
         self.assertEqual(books_in_db.count(), 10)
-

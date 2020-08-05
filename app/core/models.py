@@ -14,7 +14,7 @@ class Book(models.Model):
     )
     average_rating = models.PositiveSmallIntegerField(blank=True, default=0)
     ratings_count = models.PositiveIntegerField(blank=True, default=0)
-    thumbnail = models.URLField(blank=True, null=True)
+    thumbnail = models.TextField(blank=True, null=True)
 
     def __str__(self):
         return self.title

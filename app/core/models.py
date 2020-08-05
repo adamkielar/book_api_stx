@@ -4,8 +4,8 @@ from django.db import models
 
 class Book(models.Model):
     """Book object"""
-    title = models.CharField(max_length=255)
-    authors = ArrayField(models.CharField(max_length=255))
+    title = models.TextField()
+    authors = ArrayField(models.TextField())
     published_date = models.CharField(max_length=10, blank=True)
     categories = ArrayField(
         models.CharField(max_length=255, null=True, blank=True),

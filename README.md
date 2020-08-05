@@ -8,10 +8,10 @@ Deployment version on feature/deploy branch
 
 ## Endpoints
 
-GET /books /books?published_date=2004, /books?sort=-published_date
-GET /books?author="J. R. R. Tolkien"
-GET /books/<bookId>
-POST /db - fetch data from external url and update database
+- GET /books /books?published_date=2004, /books?sort=-published_date
+- GET /books?author="J. R. R. Tolkien"
+- GET /books/<bookId>
+- POST /db - fetch data from external url and update database
 
 # How to use:
 

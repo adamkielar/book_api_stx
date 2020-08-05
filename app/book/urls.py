@@ -1,14 +1,12 @@
 from django.urls import path, include
-from rest_framework.routers import DefaultRouter
+from rest_framework.routers import SimpleRouter
 
 from book import views
 
-router = DefaultRouter()
+router = SimpleRouter()
 router.register('books', views.BookViewSet)
+router.register('', views.BookUpdateViewSet, basename='db')
 
 app_name = 'book'
 
-urlpatterns = [
-    path('', include(router.urls)),
-    path('db/', views.BookViewSet.as_view({'post': 'create'}), name='db')
-]
+urlpatterns = router.urls

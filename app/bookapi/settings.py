@@ -43,9 +43,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django_filters',
     'rest_framework',
     'core',
+    'book',
 ]
 
 MIDDLEWARE = [
@@ -91,7 +91,9 @@ DATABASES = {
         'PASSWORD': os.environ.get('DB_PASS')
     }
 }
-
+REST_FRAMEWORK = {
+    'ORDERING_PARAM': 'sort'
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators

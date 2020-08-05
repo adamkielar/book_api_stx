@@ -1,5 +1,4 @@
 from django.contrib.postgres.fields import ArrayField
-from django.core.validators import MaxValueValidator
 from django.db import models
 
 
@@ -9,22 +8,13 @@ class Book(models.Model):
     authors = ArrayField(models.CharField(max_length=255))
     published_date = models.CharField(max_length=10, blank=True)
     categories = ArrayField(
-        models.CharField(max_length=255),
+        models.CharField(max_length=255, null=True, blank=True),
+        null=True,
         blank=True,
-        null=True
     )
-    average_rating = models.PositiveSmallIntegerField(
-        blank=True,
-        validators=[MaxValueValidator(5)]
-    )
-    ratings_count = models.PositiveIntegerField(blank=True)
-    thumbnail = models.URLField(blank=True, null=True)
+    average_rating = models.PositiveSmallIntegerField(blank=True, default=0)
+    ratings_count = models.PositiveIntegerField(blank=True, default=0)
+    thumbnail = models.TextField(blank=True, null=True)
 
     def __str__(self):
         return self.title
-
-    def save(self, *args, **kwargs):
-        """Custom save method to store only published year"""
-        if len(self.published_date) > 4:
-            self.published_date = self.published_date[:3]
-        super(Book, self).save(*args, **kwargs)

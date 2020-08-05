@@ -1,0 +1,859 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 673,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "iY4yZEkphNgC",
+      "etag": "vB0mXsbhTVk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/iY4yZEkphNgC",
+      "volumeInfo": {
+        "title": "On War",
+        "authors": [
+          "Carl von Clausewitz"
+        ],
+        "publisher": "Princeton University Press",
+        "publishedDate": "2008-09-02",
+        "description": "On War is the most significant attempt in Western history to understand war, both in its internal dynamics and as an instrument of policy. Since the work's first appearance in 1832, it has been read throughout the world, and has stimulated generations of soldiers, statesmen, and intellectuals.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781400837403"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1400837405"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 752,
+        "printType": "BOOK",
+        "categories": [
+          "History"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 9,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "5.13.10.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=iY4yZEkphNgC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=iY4yZEkphNgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.pl/books?id=iY4yZEkphNgC&printsec=frontcover&dq=war&hl=&cd=1&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=iY4yZEkphNgC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=iY4yZEkphNgC"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 186.46,
+          "currencyCode": "PLN"
+        },
+        "retailPrice": {
+          "amount": 130.52,
+          "currencyCode": "PLN"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=iY4yZEkphNgC&rdid=book-iY4yZEkphNgC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 186460000,
+              "currencyCode": "PLN"
+            },
+            "retailPrice": {
+              "amountInMicros": 130520000,
+              "currencyCode": "PLN"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.pl/books/download/On_War-sample-epub.acsm?id=iY4yZEkphNgC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.pl/books/download/On_War-sample-pdf.acsm?id=iY4yZEkphNgC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=iY4yZEkphNgC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Since the work&#39;s first appearance in 1832, it has been read throughout the world, and has stimulated generations of soldiers, statesmen, and intellectuals."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "FFnSBgAAQBAJ",
+      "etag": "Ye4pyGfceq8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/FFnSBgAAQBAJ",
+      "volumeInfo": {
+        "title": "War and Peace Philosophical, Political and Legal Aspects",
+        "subtitle": "Volume II LEGAL CONDITIONINGS",
+        "authors": [
+          "Anetta Breczko",
+          "Florian Lempa"
+        ],
+        "publisher": "Wydawnictwo Temida 2",
+        "publishedDate": "2013",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9788362813599"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "8362813598"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 147,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=FFnSBgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=FFnSBgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "pl",
+        "previewLink": "http://books.google.pl/books?id=FFnSBgAAQBAJ&pg=PA31&dq=war&hl=&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.pl/books?id=FFnSBgAAQBAJ&dq=war&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/War_and_Peace_Philosophical_Political_an.html?hl=&id=FFnSBgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=FFnSBgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "of \u003cb\u003ewar\u003c/b\u003e or hostilities is similarly treated by S. Grzybowski who clearly states that \u003cbr\u003e\nneither those provisions, nor the nature of the implementing legislation is \u003cbr\u003e\nepisodic, but they form the complete merit whole with the provisions of art. 29–52 \u003cbr\u003e\nCivil&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "ZG4lDAAAQBAJ",
+      "etag": "zf37YHXNfWE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/ZG4lDAAAQBAJ",
+      "volumeInfo": {
+        "title": "Hayden War. Tom 2. Narodziny Walkirii",
+        "authors": [
+          "Evan Currie"
+        ],
+        "publisher": "Drageus",
+        "publishedDate": "2016-05-18",
+        "description": "Dwa lata po inwazji na Świecie Haydena oddziały partyzantki i nieprzyjaciela znalazły się w impasie, ale żadna ze stron nie zamierza tak pozostawić stanu rzeczy. Sojusz obcych rzuca do walki kolejne siły, na Haydena przybywają Strażnicy, kórzy specjalizują się w rozwiązywaniu problemów. Ludzie na planecie zwierają szeregi, ale czy będą w stanie oprzeć się superpotężnej broni obcych? Zjednoczona Flota Solarna wysyła z pomocą Task Force 5, grupę bojową składającą się z najnowocześniejszych okrętów skonstruowanych kiedykolwiek przez człowieka. Na Świat Haydena powraca Sorilla Aida, która nie może się już doczekać kolejnej konfrontacji z obcymi. W dżungli czai się zło i ktoś musi wreszcie zrobić z tym porządek. Ostatecznie pewne rzeczy rozstrzygną się na niebie, ale o innych można zadecydować tylko na ziemi.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9788364030864"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "8364030868"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 320,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.2.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=ZG4lDAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=ZG4lDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "pl",
+        "previewLink": "http://books.google.pl/books?id=ZG4lDAAAQBAJ&pg=PT240&dq=war&hl=&cd=3&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=ZG4lDAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=ZG4lDAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 25.53,
+          "currencyCode": "PLN"
+        },
+        "retailPrice": {
+          "amount": 19.15,
+          "currencyCode": "PLN"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=ZG4lDAAAQBAJ&rdid=book-ZG4lDAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 25530000,
+              "currencyCode": "PLN"
+            },
+            "retailPrice": {
+              "amountInMicros": 19150000,
+              "currencyCode": "PLN"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.pl/books/download/Hayden_War_Tom_2_Narodziny_Walkirii-sample-epub.acsm?id=ZG4lDAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.pl/books/download/Hayden_War_Tom_2_Narodziny_Walkirii-sample-pdf.acsm?id=ZG4lDAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=ZG4lDAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Spod jego pióra wyszły „Steam Legion”, „Warrior Wings”/ „Hayden \u003cb\u003eWar\u003c/b\u003e Cycle” („\u003cbr\u003e\nOn Silver Wings”, „Valkirie Rising”, „Valkirie Burning”, „Valhalla Call”, „By Other \u003cbr\u003e\nMeans”, „De Oppresso Liber”), „Thermals”, „Star Rogue: Król złodziei” i seria&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "MELRDAAAQBAJ",
+      "etag": "bBuA04gnucM",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/MELRDAAAQBAJ",
+      "volumeInfo": {
+        "title": "Hayden War. Tom 4. Zew Walhalli",
+        "subtitle": "",
+        "authors": [
+          "Evan Currie"
+        ],
+        "publisher": "Drageus",
+        "publishedDate": "2016-08-17",
+        "description": "Wojna o Świat Haydena dobiega zaskakującego końca. Świeżo upieczona porucznik Sorilla Aida ma nowych sojuszników, nowy sprzęt i wsparcie, i oczywiście nowe zadanie. Jej misja może zagwarantować ludzkości szansę na zdobycie przewagi technologicznej w konflikcie z obcymi. Sojusz jednak nie czeka, aż wojna wymknie się mu spod kontroli, i w odpowiedzi podejmuje błyskawiczną kontrakcję. Czy obcych naprawdę interesują ludzie i ludzkie światy, czy może jednak gra toczy się o coś więcej? Zew Walhalli rozbrzmiewa w całej Galaktyce i ktoś będzie musiał na niego odpowiedzieć.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9788364030956"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "8364030957"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 360,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.1.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=MELRDAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=MELRDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "pl",
+        "previewLink": "http://books.google.pl/books?id=MELRDAAAQBAJ&pg=PT271&dq=war&hl=&cd=4&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=MELRDAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=MELRDAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 25.53,
+          "currencyCode": "PLN"
+        },
+        "retailPrice": {
+          "amount": 19.15,
+          "currencyCode": "PLN"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=MELRDAAAQBAJ&rdid=book-MELRDAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 25530000,
+              "currencyCode": "PLN"
+            },
+            "retailPrice": {
+              "amountInMicros": 19150000,
+              "currencyCode": "PLN"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.pl/books/download/Hayden_War_Tom_4_Zew_Walhalli-sample-epub.acsm?id=MELRDAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.pl/books/download/Hayden_War_Tom_4_Zew_Walhalli-sample-pdf.acsm?id=MELRDAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=MELRDAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Spod jego pióra wyszły „Steam Legion”, „Warrior Wings”/ „Hayden \u003cb\u003eWar\u003c/b\u003e Cycle” („\u003cbr\u003e\nOn Silver Wings”, „Valkyrie Rising”, „Valkyrie Burning”, „The Valhalla Call”, „By \u003cbr\u003e\nOther Means”, „De Oppresso Liber”), „Thermals”, „Star Rogue: Król złodziei” i \u003cbr\u003e\nseria&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "q-5QDAAAQBAJ",
+      "etag": "F3W8vkKtbfs",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/q-5QDAAAQBAJ",
+      "volumeInfo": {
+        "title": "Hayden War. Tom 3. Walkiria w ogniu",
+        "authors": [
+          "Evan Currie"
+        ],
+        "publisher": "Drageus",
+        "publishedDate": "2016-06-16",
+        "description": "Trwa wojna ludzi z Sojuszem obcych. Sorilla i jej zespół podejmują się niezwykle trudnej misji uwolnienia zakładników przetrzymywanych na jednej z wrogich planet. Pomimo że odbudowano orbitalne łącze na Świecie Haydena, w dżungli nadal grasują Strażnicy, prowadząc partyzancką walkę z oddziałami ludzi. Tymczasem w przestrzeni kosmicznej pojawia się nowy gracz, który zachwieje układem sił – ale Ziemianie też mają w zanadrzu niejedną niespodziankę. Jak zakończy się starcie w kosmosie? Czy Świat Haydena będzie znowu wolną planetą?",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9788364030895"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "8364030892"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 312,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.2.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=q-5QDAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=q-5QDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "pl",
+        "previewLink": "http://books.google.pl/books?id=q-5QDAAAQBAJ&pg=PT4&dq=war&hl=&cd=5&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=q-5QDAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=q-5QDAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 25.53,
+          "currencyCode": "PLN"
+        },
+        "retailPrice": {
+          "amount": 19.15,
+          "currencyCode": "PLN"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=q-5QDAAAQBAJ&rdid=book-q-5QDAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 25530000,
+              "currencyCode": "PLN"
+            },
+            "retailPrice": {
+              "amountInMicros": 19150000,
+              "currencyCode": "PLN"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.pl/books/download/Hayden_War_Tom_3_Walkiria_w_ogniu-sample-epub.acsm?id=q-5QDAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.pl/books/download/Hayden_War_Tom_3_Walkiria_w_ogniu-sample-pdf.acsm?id=q-5QDAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=q-5QDAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Tak więc oddaję Wam trzecią książkę z czterotomowego cyklu. Czwarta, „Zew \u003cbr\u003e\nWalhalli”, zakończy „Hayden \u003cb\u003eWar\u003c/b\u003e”[1], lecz na razie cieszcie się „Walkirią w ogniu”\u003cbr\u003e\n. Prolog Skała wydawała odgłos jak pociąg, kiedy wchodziła w atmosferę \u003cbr\u003e\nOkładka&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "vMukDQAAQBAJ",
+      "etag": "Z1gzzQ8uuzk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/vMukDQAAQBAJ",
+      "volumeInfo": {
+        "title": "Hayden War. Tom 6. De Oppresso Liber",
+        "subtitle": "",
+        "authors": [
+          "Evan Currie"
+        ],
+        "publisher": "Drageus",
+        "publishedDate": "2016-12-08",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9788365661074"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "8365661071"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 312,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.1.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=vMukDQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=vMukDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "pl",
+        "previewLink": "http://books.google.pl/books?id=vMukDQAAQBAJ&pg=PT230&dq=war&hl=&cd=6&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=vMukDQAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=vMukDQAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 25.53,
+          "currencyCode": "PLN"
+        },
+        "retailPrice": {
+          "amount": 19.15,
+          "currencyCode": "PLN"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=vMukDQAAQBAJ&rdid=book-vMukDQAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 25530000,
+              "currencyCode": "PLN"
+            },
+            "retailPrice": {
+              "amountInMicros": 19150000,
+              "currencyCode": "PLN"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.pl/books/download/Hayden_War_Tom_6_De_Oppresso_Liber-sample-epub.acsm?id=vMukDQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.pl/books/download/Hayden_War_Tom_6_De_Oppresso_Liber-sample-pdf.acsm?id=vMukDQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=vMukDQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Spod jego pióra wyszły „Steam Legion”, „Warrior Wings”/ „Hayden \u003cb\u003eWar\u003c/b\u003e Cycle” („\u003cbr\u003e\nOn Silver Wings”, „Valkyrie Rising”, „Valkyrie Burning”, „The Valhalla Call”, „By \u003cbr\u003e\nOther Means”, „De Oppresso Liber”), „Thermals”, „Star Rogue: Król złodziei” i \u003cbr\u003e\nseria&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "kKJLlLW4sbUC",
+      "etag": "o1X67LNJGUk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/kKJLlLW4sbUC",
+      "volumeInfo": {
+        "title": "The Ethics of War",
+        "authors": [
+          "A. J. Coates",
+          "Former Lecturer in Politics A J Coates"
+        ],
+        "publisher": "Manchester University Press",
+        "publishedDate": "1997-09-15",
+        "description": "Drawing on examples from the history of warfare from the crusades to the present day, \"The ethics of war\" explores the limits and possibilities of the moral regulation of war. While resisting the commonly held view that 'war is hell', A.J. Coates focuses on the tensions which exist between war and morality. The argument is conducted from a just war standpoint, though the moral ambiguity and mixed record of that tradition is acknowledge and the dangers which an exaggerated view of the justice or moral worth of war poses are underlined. In the first part, the broad image of the just war is compared with the competing images of realism, militarism and pacifism. In the second part, the moral issues associated both with the decision to go to war and with the manner in which war is conducted are explored. Was the allied decision to go to war in the Gulf premature? were economic sanctions a more effective and morally preferable option? was Britain justified in going to war over the Falklands? did the allied bombing of Germany in the Second World War constitute a war crime? should the IRA's claim to belligerent status be recognised? these questions and more are raised in this important book.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0719040469"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780719040467"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 314,
+        "printType": "BOOK",
+        "categories": [
+          "Philosophy"
+        ],
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=kKJLlLW4sbUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=kKJLlLW4sbUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.pl/books?id=kKJLlLW4sbUC&printsec=frontcover&dq=war&hl=&cd=7&source=gbs_api",
+        "infoLink": "http://books.google.pl/books?id=kKJLlLW4sbUC&dq=war&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Ethics_of_War.html?hl=&id=kKJLlLW4sbUC"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=kKJLlLW4sbUC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Was the allied decision to go to war in the Gulf premature? were economic sanctions a more effective and morally preferable option? was Britain justified in going to war over the Falklands? did the allied bombing of Germany in the Second ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "ThfzGvSvQ2UC",
+      "etag": "0UD0pK77ihY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/ThfzGvSvQ2UC",
+      "volumeInfo": {
+        "title": "War Crimes Against Women",
+        "subtitle": "Prosecution in International War Crimes Tribunals",
+        "authors": [
+          "Kelly Dawn Askin"
+        ],
+        "publisher": "Martinus Nijhoff Publishers",
+        "publishedDate": "1997",
+        "description": "Of the ICTY.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "9041104860"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9789041104861"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 455,
+        "printType": "BOOK",
+        "categories": [
+          "Law"
+        ],
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=ThfzGvSvQ2UC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=ThfzGvSvQ2UC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.pl/books?id=ThfzGvSvQ2UC&pg=PA1&dq=war&hl=&cd=8&source=gbs_api",
+        "infoLink": "http://books.google.pl/books?id=ThfzGvSvQ2UC&dq=war&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/War_Crimes_Against_Women.html?hl=&id=ThfzGvSvQ2UC"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=ThfzGvSvQ2UC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "The literature of \u003cb\u003ewar\u003c/b\u003e is full of evidence of this disagreeable dark edge to military \u003cbr\u003e\nbehaviour . Introduction to Gender Specific \u003cb\u003eWar\u003c/b\u003e Crimes Almost since the \u003cbr\u003e\nexistence of humankind , there has been \u003cb\u003ewar\u003c/b\u003e , and where there is \u003cb\u003ewar\u003c/b\u003e , there is \u003cbr\u003e\nalways&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "TNhFH5g3sCsC",
+      "etag": "oECM7iYfxw8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/TNhFH5g3sCsC",
+      "volumeInfo": {
+        "title": "Effects of War on Society",
+        "authors": [
+          "Center for Interdisciplinary Research on Social Stress"
+        ],
+        "publisher": "Boydell Press",
+        "publishedDate": "2002",
+        "description": "'Studies on the Nature of War' aims to place in perspective the sociocultural variables that make outbreaks of war probable, and identify for policy-makers steps that can be taken to control these variables. This first volume of the series is designed to show the many effects that war produces on the societies that are addicted to them. Twelve papers describe the evolution from antiquity to modern times of the interpretation of the causes of war and of its effects; the causes of war among pre-industrial societies; war in an ancient empire, the Roman, in a modern one, the Austro-Hungarian, and in the Soviet empire; and the various aspects of the impact of war on society, for instance, the correlation between war and personal violence, the manipulation of public communication, and the costs of war. CONTRIBUTORS: G. AUSENDA, R. POZZO, C. DANDEKER, R. B. FERGUSON, R. L. CARNEIRO, J. A. TAINTER, T. J. CORNELL, N. RUDENSKY, A. AKLAEV, D. LESTER, P.M. TAYLOR, W. R. THOMPSON. CONTENTS: The evolution of learned thinking on the significance of war from classical Greece to the Renaissance: A survey. G. AUSENDA and R. POZZO; The causes of war and the history of modern sociological theory. C. DANDEKER; The general consequences of war: An Amazonian perspective. R. B. FERGUSON; The role of warfare in political evolution: Past results and future projections. R. L. CARNEIRO; Evolutionary consequences of war. J. A. TAINTER; The effects of war on the society of ancient Rome. T. J. CORNELL; War and nationalities problems: The end of the Austro-Hungarian Empire. G. AUSENDA; War as a factor of ethnic conflict and stability in the U.S.S.R. N. RUDENSKY; War and social stress and their effects on the nationalities in the U.S.S.R. A. AKLAEV; War and personal violence. D. LESTER; The effects of war on communications. P.M. TAYLOR; Assessing the costs of war: A preliminary cut. W. R. THOMPSON.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0851158684"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780851158686"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 310,
+        "printType": "BOOK",
+        "categories": [
+          "Political Science"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=TNhFH5g3sCsC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=TNhFH5g3sCsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.pl/books?id=TNhFH5g3sCsC&pg=PA131&dq=war&hl=&cd=9&source=gbs_api",
+        "infoLink": "http://books.google.pl/books?id=TNhFH5g3sCsC&dq=war&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Effects_of_War_on_Society.html?hl=&id=TNhFH5g3sCsC"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=TNhFH5g3sCsC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "THE EFFECTS OF \u003cb\u003eWAR\u003c/b\u003e ON THE SOCIETY OF ANCIENT ROME T. J. CORNELL \u003cbr\u003e\nDepartment of History, The University of Manchester, Oxford Road, Manchester \u003cbr\u003e\nM139PL A discussion of the effects of \u003cb\u003ewar\u003c/b\u003e on society is both possible and&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "uxcNAQAAIAAJ",
+      "etag": "g/XS9fYEgIk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/uxcNAQAAIAAJ",
+      "volumeInfo": {
+        "title": "War and Social Change",
+        "subtitle": "British Society in the Second World War",
+        "authors": [
+          "Harold L. Smith"
+        ],
+        "publisher": "Manchester University Press",
+        "publishedDate": "1990",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "071902319X"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780719023194"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 271,
+        "printType": "BOOK",
+        "categories": [
+          "Great Britain"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=uxcNAQAAIAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=uxcNAQAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.pl/books?id=uxcNAQAAIAAJ&pg=PA208&dq=war&hl=&cd=10&source=gbs_api",
+        "infoLink": "http://books.google.pl/books?id=uxcNAQAAIAAJ&dq=war&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/War_and_Social_Change.html?hl=&id=uxcNAQAAIAAJ"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=uxcNAQAAIAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Harold L . Smith The effect of the \u003cb\u003ewar\u003c/b\u003e on the status of women The notion that the \u003cbr\u003e\nSecond World \u003cb\u003eWar\u003c/b\u003e must have had a profound and lasting effect on the lives of \u003cbr\u003e\nBritish women has continued to shape interpretive studies of the conflict to the&nbsp;..."
+      }
+    }
+  ]
+}

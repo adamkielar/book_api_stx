@@ -25,7 +25,7 @@ class BookViewSet(viewsets.ModelViewSet):
     ordering_fields = ['published_date']
 
     def get_queryset(self):
-        queryset = self.queryset
+        queryset = super(BookViewSet, self).get_queryset()
         filter_by_date = self.request.query_params.get('published_date', None)
         filter_by_author = self.request.GET.getlist('author')
         if filter_by_date:

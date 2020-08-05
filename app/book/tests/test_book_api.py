@@ -48,11 +48,22 @@ class BookApiTest(TestCase):
         self.assertEqual(response.data, serializer.data)
 
     def test_filter_book_published_date(self):
-        """Test filtering book by published date"""
+        """Test filtering books by published date"""
         book1 = self.book1
         book2 = self.book2
 
         response = self.client.get(BOOKS_URL, {'published_date': '2004'})
+        serializer1 = BookSerializer(book1)
+        serializer2 = BookSerializer(book2)
+        self.assertIn(serializer1.data, response.data)
+        self.assertNotIn(serializer2.data, response.data)
+
+    def test_filter_book_by_author(self):
+        """Test filtering books by authors"""
+        book1 = self.book1
+        book2 = self.book2
+
+        response = self.client.get(BOOKS_URL, {'author': 'J. R. R. Tolkien'})
         serializer1 = BookSerializer(book1)
         serializer2 = BookSerializer(book2)
         self.assertIn(serializer1.data, response.data)

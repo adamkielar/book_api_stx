@@ -12,7 +12,7 @@ from core.models import Book
 from book.serializers import BookSerializer
 
 BOOKS_URL = reverse('book:book-list')
-BOOKS_UPDATE_URL = reverse('book:db')
+BOOKS_UPDATE_URL = reverse('book:db-db')
 TEST_DATA = os.path.join(os.path.dirname(__file__), 'books_list.json')
 
 
@@ -112,7 +112,18 @@ class BookUpdateApiTest(TestCase):
         for book in self.books:
             book = book['volumeInfo']
             payload = {
-                'title': book.get('title')
+                'title': book.get('title'),
+                'authors': book.get('authors'),
+                'published_date': book.get('publishedDate')[:4],
+                'categories': book.get('categories', list()),
+                'average_rating': book.get('averageRating', 0),
+                'ratings_count': book.get('ratingsCount', 0),
+                'thumbnail': book['imageLinks'].get('thumbnail')
             }
             response = self.client.post(BOOKS_UPDATE_URL, payload)
-            print(response)
+
+            self.assertEqual(response.status_code, status.HTTP_201_CREATED)
+
+        books_in_db = Book.objects.all()
+        self.assertEqual(books_in_db.count(), 10)
+

@@ -1,16 +1,18 @@
 from rest_framework import filters
-from rest_framework import viewsets
+from rest_framework import generics, viewsets
+from rest_framework.response import Response
 
 from core.models import Book
 from book.serializers import BookSerializer
 
 
-class BookViewSet(viewsets.ReadOnlyModelViewSet):
+class BookViewSet(viewsets.ModelViewSet):
     """
     Manage following endpoint:
     /books
     /books/<bookid>
     """
+    allowed_methods = ['GET']
     queryset = Book.objects.all()
     serializer_class = BookSerializer
     filter_backends = [filters.OrderingFilter]
@@ -26,3 +28,14 @@ class BookViewSet(viewsets.ReadOnlyModelViewSet):
             author_list = [author.strip('"') for author in filter_by_author]
             queryset = queryset.filter(authors__contained_by=author_list)
         return queryset
+
+
+class BookUpdateViewSet(generics.CreateAPIView):
+    """
+    Manage endpoint to fetch and update book list
+    /db
+    """
+    allowed_methods = ['POST']
+
+    def post(self, request, *args, **kwargs):
+        return Response({'message': 'Books updated'})

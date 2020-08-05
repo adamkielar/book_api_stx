@@ -10,4 +10,5 @@ app_name = 'book'
 
 urlpatterns = [
     path('', include(router.urls)),
+    path('db/', views.BookViewSet.as_view({'post': 'create'}), name='db')
 ]

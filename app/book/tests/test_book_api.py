@@ -1,3 +1,6 @@
+import json
+import os
+
 from django.test import TestCase
 from django.urls import reverse
 
@@ -9,6 +12,8 @@ from core.models import Book
 from book.serializers import BookSerializer
 
 BOOKS_URL = reverse('book:book-list')
+BOOKS_UPDATE_URL = reverse('book:db')
+TEST_DATA = os.path.join(os.path.dirname(__file__), 'books_list.json')
 
 
 def detail_url(book_id):
@@ -84,3 +89,30 @@ class BookApiTest(TestCase):
         serializer = BookSerializer(book)
 
         self.assertEqual(response.data, serializer.data)
+
+
+class BookUpdateApiTest(TestCase):
+    """Test update Book model with external data"""
+
+    def setUp(self):
+        self.client = APIClient()
+        self.books_list = open(TEST_DATA)
+        self.books = json.load(self.books_list)
+        self.books = self.books['items']
+
+    def tearDown(self):
+        self.books_list.close()
+
+    def test_retrieve_data_from_file(self):
+        """Test to check if data are available"""
+        self.assertTrue(self.books)
+
+    def test_update_database_with_books(self):
+        """Test updating database with books from file"""
+        for book in self.books:
+            book = book['volumeInfo']
+            payload = {
+                'title': book.get('title')
+            }
+            response = self.client.post(BOOKS_UPDATE_URL, payload)
+            print(response)
